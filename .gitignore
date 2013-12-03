@@ -1,0 +1,11 @@
+*.db
+*.log
+*.pyc
+*~
+.DS_Store
+.Python
+.vagrant
+__pycache__/*
+FOLDER_EXAMPLE/*
+Scripts/*
+TODO
