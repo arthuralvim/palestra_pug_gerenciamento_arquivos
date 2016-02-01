@@ -39,7 +39,7 @@ requirements.test:
 # TESTS
 
 test:
-	@py.test --cov-report term-missing --cov=src
+	@py.test --cov-report term-missing --cov=src --basetemp=media
 
 coverage:
 	@py.test --cov-report html --cov=src
