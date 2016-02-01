@@ -39,6 +39,9 @@ requirements.test:
 # TESTS
 
 test:
-	@py.test
+	@py.test --cov-report term-missing --cov=src
+
+coverage:
+	@py.test --cov-report html --cov=src
 
 # ---
